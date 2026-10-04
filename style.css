@@ -1,0 +1,107 @@
+/* Basic page setup */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f5f0;
+    color: #333333;
+    line-height: 1.6;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #292929;
+    padding: 15px 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main header */
+
+header {
+    text-align: center;
+    padding: 90px 20px;
+    background-color: #ded8ca;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.3rem;
+}
+
+
+/* Main content */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    padding: 40px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* Phones */
+
+@media (max-width: 600px) {
+
+    nav ul {
+        gap: 15px;
+        font-size: 0.9rem;
+    }
+
+    header {
+        padding: 60px 20px;
+    }
+
+    header h1 {
+        font-size: 2.2rem;
+    }
+}
